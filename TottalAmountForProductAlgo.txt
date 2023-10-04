@@ -1,0 +1,16 @@
+Algorithm TottalAmountForProduct
+variable 
+  ht : reel
+  c: character
+  ttc
+debut 
+  ecrire("enter the ht")
+  lire(ht)
+  ecrire("enter category")
+  lire(c)
+  cas c vaut:
+    a : ttc = ht + ht* 7/100
+    B : ttc = ht + ht* 20/100
+    c : ttc = ht + ht* 25/100
+  ecrire(" ttc = ",ttc)
+fin
